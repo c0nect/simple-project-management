@@ -3,25 +3,20 @@ class TasksController < ApplicationController
   before_action :set_project
   before_action :set_task, only: [:show, :edit, :update, :destroy]
 
-  # GET projects/1/tasks
   def index
     @tasks = @project.tasks
   end
 
-  # GET projects/1/tasks/1
   def show
   end
 
-  # GET projects/1/tasks/new
   def new
     @task = @project.tasks.build
   end
 
-  # GET projects/1/tasks/1/edit
   def edit
   end
 
-  # POST projects/1/tasks
   def create
     @task = @project.tasks.build(task_params)
 
@@ -32,7 +27,6 @@ class TasksController < ApplicationController
     end
   end
 
-  # PUT projects/1/tasks/1
   def update
     if @task.update(task_params)
       redirect_to(@task.project)
@@ -41,7 +35,6 @@ class TasksController < ApplicationController
     end
   end
 
-  # DELETE projects/1/tasks/1
   def destroy
     @task.destroy
 
@@ -49,7 +42,6 @@ class TasksController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_project
       @project = current_user.projects.find(params[:project_id])
     end
