@@ -1,24 +1,21 @@
-# README
+# Simple project management..
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+this is a simple app project management made with ruby on rails...
 
-Things you may want to cover:
+* ruby_version: 3.0.2
+* database: postgresql
+* gems: devise, nested_scaffold
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Login page (without css)
+![alt text](https://i.imgur.com/qDmyfDv.png)
+## Index page
+![alt text](https://i.imgur.com/ZrB3J9n.png)
+## New project page
+![alt text](https://i.imgur.com/Y4cpmIT.png)
+## Project page
+![alt text](https://i.imgur.com/6D7Dx6j.png)
+## Edit task page
+![alt text](https://i.imgur.com/dcabjoj.png)
+## Edit project page
+![alt text](https://i.imgur.com/5GVrbIa.png)
