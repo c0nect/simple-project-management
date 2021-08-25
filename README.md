@@ -1,6 +1,6 @@
 # Simple project management..
 
-this is a simple app project management made with ruby on rails...
+this is a simple app project management made with ruby on rails and bootstrap...
 
 * ruby_version: 3.0.2
 * rails_version: 6.1.4
