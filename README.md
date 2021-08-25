@@ -3,6 +3,7 @@
 this is a simple app project management made with ruby on rails...
 
 * ruby_version: 3.0.2
+* rails_version: 6.1.4
 * database: postgresql
 * gems: devise, nested_scaffold
 
